@@ -72,7 +72,7 @@ public class CartServiceImpl implements CartService {
 
         // todo change to stream
         for (CartItem cartItem : cartItemList1){
-            cart2TotalAmount = cart2TotalAmount.add(cartItem.getProduct().getPrice().multiply(BigDecimal.valueOf(cartItem.getQuantity())));
+            cart2TotalAmount = cart1TotalAmount.add(cartItem.getProduct().getPrice().multiply(BigDecimal.valueOf(cartItem.getQuantity())));
         }
 
         cart2.setCartTotalAmount(cart2TotalAmount);
