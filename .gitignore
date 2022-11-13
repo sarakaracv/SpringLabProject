@@ -1,7 +1,3 @@
-/pom.xml
-.idea
-.gitignore
-pom.xml
 /.idea/
 /target/
 /out/
