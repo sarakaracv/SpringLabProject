@@ -1,6 +1,6 @@
 package com.cydeo.cydeo.lab08rest.entity;
 
-import com.cydeo.lab08rest.enums.DiscountType;
+import com.cydeo.cydeo.lab08rest.enums.DiscountType;
 import lombok.Getter;
 import lombok.Setter;
 
